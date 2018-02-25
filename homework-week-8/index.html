@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS-Week8-Homework</title>
+</head>
+
+<body>
+    <form id="searchForm">
+        <div>
+            <label>
+                <input type="radio" name="selectedTag" value="All" checked> All
+            </label>
+            <label>
+                <input type="radio" name="selectedTag" value="Excellent"> Excellent
+            </label>
+            <label>
+                <input type="radio" name="selectedTag" value="Very Good"> Very Good
+            </label>
+            <label>
+                <input type="radio" name="selectedTag" value="Good"> Good
+            </label>
+        </div>
+        <div>
+            <input type="text" name="searchText">
+            <button type="submit">Search</button>
+        </div>
+    </form>
+
+    <p id="searchCount" style="display: none"></p>
+
+    <table id="moviesList" style="display: none" border="1">
+        <thead>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Rating</th>
+            <th>Votes</th>
+            <th>Tag</th>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+<!-- <script type="text/javascript" src="part-1.js"></script> -->
+<script type="text/javascript" src="part-2.js"></script>
+
+</html>
